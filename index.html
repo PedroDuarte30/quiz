@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiztastic (but not fantastic yet)</title>
+  </head>
 <body>
-    
+    <header>
+        <h1 class="quiz__title">Quiztastic!</h1>
+    </header>
+
+    <main class="container">
+        <div id="start-screen">
+            <h2>Welcome to the Challenge</h2>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-area" class="hide">
+            <div class="quiz__info">
+                <span>Time: <span id="time">60</span>s</span> | 
+                <span>Score: <span id="score">0</span></span>
+            </div>
+            
+            <h2 id="question">Question</h2>
+            
+            <div class="options">
+                <button class="option-btn" id="a">Option A</button>
+                <button class="option-btn" id="b">Option B</button>
+                <button class="option-btn" id="c">Option C</button>
+                <button class="option-btn" id="d">Option D</button>
+            </div>
+        </div>
+
+        <div id="result-screen" class="hide">
+            <h2>Quiz Completed!</h2>
+            <p>Final Score: <span id="final-score">0</span></p>
+            <button id="restart" onclick="location.reload()">Restart</button>
+        </div>
+    </main>
+
+    <script src="src/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+:root {
+    /* Main Colors */
+    --primary-color: #6c5ce7;       
+    --primary-hover: #a29bfe;       
+    --bg-color: #213C51;            
+    --text-color: #ffffff;          
+    --text-muted: #b2bec3;
+
+    /* Spacing and Borders */
+    --radius: 12px;                 
+    --spacing: 20px;                
+    --transition: all 0.3s ease;    
+    
+    /* Shadows */
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
