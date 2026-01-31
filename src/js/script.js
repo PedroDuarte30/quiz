@@ -12,10 +12,10 @@ let timer;
 
 // Questions
 const questions = [
-    { q: "What does HTML stand for?", options: ["Home Tool Markup Language", "Hyper Text Markup Language", "Hyperlinks and Text Markup Language"], correct: "b" },
-    { q: "Who is making the Web standards?", options: ["Google", "The World Wide Web Consortium ", "Mozilla ", "Microsoft"], correct: "b" },
-    { q: "What does CSS stand for?", options: ["Computer Style Sheets", "Colorful Style Sheets", "Creative Style Sheets", "Cascanding Style Sheets"], correct: "d" },
-    { q: "Where in an HTML document is the correct place to refer to an external style sheet?", options: ["In the <head> section", "At the end of the document", "In the <body> section"], correct: "a" }
+    { q: "O que significa HTML?", options: ["Home Tool Markup Language", "Hyper Text Markup Language", "Hyperlinks and Text Markup Language"], correct: "b" },
+    { q: "Quem criou e mantém os padrões web?", options: ["Google", "The World Wide Web Consortium ", "Mozilla ", "Microsoft"], correct: "b" },
+    { q: "O que significa CSS?", options: ["Computer Style Sheets", "Colorful Style Sheets", "Creative Style Sheets", "Cascanding Style Sheets"], correct: "d" },
+    { q: "Em que parte de um documento HTML é o local correto para referir uma folha de estilo externa?", options: ["Na secção <head>", "No final do documento", "Na secção <body>"], correct: "a" }
 ];
 
 // Start Quiz
@@ -39,7 +39,7 @@ function showQuestion() {
 }
 
 function checkAnswer(selectedIdx){
-    const correctMap = {0: "a", 1: "b", 2: "c", 3: "d"}; // Mapeia índice para a letra
+    const correctMap = {0: "a", 1: "b", 2: "c", 3: "d"}; 
     const answerLetter = correctMap[selectedIdx];
 
     if(answerLetter === questions[currentIdx].correct) {
