@@ -1,32 +1,26 @@
-🧠 Quiztastic (but not fantastic yet)
-An interactive and responsive quiz about Web technologies (HTML, CSS, JS), developed as a technical challenge to practice DOM manipulation and programming logic.
+# 🧠 Quiztastic (but not fantastic yet)
 
-🚀 Live Demo
-You can test the quiz here: https://pedroduarte30.github.io/quiz/
+Um quiz interativo e responsivo sobre tecnologias Web (HTML, CSS, JS), desenvolvido como um desafio técnico para praticar manipulação do DOM e lógica de programação.
 
-✨ Features
-Timer System: 60 seconds to complete the challenge.
+## 🚀 Demonstração
+Podes testar o quiz aqui: [https://pedroduarte30.github.io/quiz/](https://pedroduarte30.github.io/quiz/)
 
-Real-time Scoring: Immediate feedback on correct answers.
+## ✨ Funcionalidades
+* **Sistema de Timer:** 60 segundos para completar o desafio.
+* **Pontuação em Tempo Real:** Feedback imediato de acertos.
+* **Design Responsivo:** Adaptado para telemóveis, tablets e desktops.
+* **Interface Moderna:** Dark mode com fontes futuristas (`Orbitron` & `Poppins`).
 
-Responsive Design: Fully optimized for mobile, tablets, and desktops.
+## 🛠️ Tecnologias Utilizadas
+* **HTML5:** Estrutura semântica.
+* **CSS3:** Variáveis (Custom Properties), Flexbox e Media Queries.
+* **JavaScript (Vanilla):** Lógica do jogo, cronómetro e manipulação dinâmica do HTML.
 
-Modern UI: Dark mode featuring futuristic typography (Orbitron & Poppins).
+## 📁 Estrutura do Projeto
+* `index.html`: Estrutura principal.
+* `src/css/`: Estilos e variáveis.
+* `src/js/`: Lógica do quiz.
+* `assets/`: Imagens e ícones.
 
-🛠️ Tech Stack
-HTML5: Semantic structure.
-
-CSS3: Variables (Custom Properties), Flexbox, and Media Queries.
-
-JavaScript (Vanilla): Game logic, countdown timer, and dynamic DOM manipulation.
-
-📁 Project Structure
-index.html: Main entry point and structure.
-
-src/css/: Stylesheets and theme variables.
-
-src/js/: Core quiz logic.
-
-assets/: Images, icons, and static resources.
-
-Developed with 💻 by Pedro Duarte
+---
+Desenvolvido por [Pedro Duarte](https://github.com/PedroDuarte30)
