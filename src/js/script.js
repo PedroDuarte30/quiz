@@ -30,13 +30,10 @@ function showQuestion() {
     const item = questions[currentIdx]; // CORRIGIDO: era question
     questionEl.innerText = item.q;
     
-    // Preencher os botões e dar-lhes a função de clique
     optionBtns.forEach((btn, index) => {
-        // Limpar o texto caso a pergunta anterior tivesse mais opções
         btn.style.display = item.options[index] ? "block" : "none";
         btn.innerText = item.options[index] || "";
         
-        // Adicionar o clique para verificar a resposta
         btn.onclick = () => checkAnswer(index);
     });
 }
