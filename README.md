@@ -1,39 +1,32 @@
-# Interactive Quiz Challenge
-A lightweight, fully responsive interactive quiz built with vanilla web technologies. This project was developed to demonstrate proficiency in dynamic DOM manipulation, state management, and mobile-first design.
+🧠 Quiztastic (but not fantastic yet)
+An interactive and responsive quiz about Web technologies (HTML, CSS, JS), developed as a technical challenge to practice DOM manipulation and programming logic.
 
-🚀 Features
-Dynamic Rendering: Questions and options are rendered dynamically using JavaScript.
+🚀 Live Demo
+You can test the quiz here: https://pedroduarte30.github.io/quiz/
 
-Real-time Scoring: Automatically tracks and calculates the final score.
+✨ Features
+Timer System: 60 seconds to complete the challenge.
 
-Visual Feedback: Immediate color-coded feedback for correct and incorrect answers.
+Real-time Scoring: Immediate feedback on correct answers.
 
-Fully Responsive: Optimized for a seamless experience on mobile, tablet, and desktop.
+Responsive Design: Fully optimized for mobile, tablets, and desktops.
 
-Clean Codebase: Organized and modular code following best practices.
+Modern UI: Dark mode featuring futuristic typography (Orbitron & Poppins).
 
-🛠️ Technologies Used
-HTML5: Semantic structure for accessibility.
+🛠️ Tech Stack
+HTML5: Semantic structure.
 
-CSS3: Flexbox/Grid for layout and smooth transitions.
+CSS3: Variables (Custom Properties), Flexbox, and Media Queries.
 
-JavaScript (ES6+): Logic for scoring, event handling, and UI updates.
+JavaScript (Vanilla): Game logic, countdown timer, and dynamic DOM manipulation.
 
-📂 Project Structure
-Plaintext
-├── assets/
-│   └── images/
-│       └── imag1.png
-├── src/
-│   ├── css/
-│   │   ├── styles.css
-│   │   └── variables.css
-│   └── js/
-│       └── script.js
-└── index.html
-⚙️ How to Run
-Clone this repository or download the project files.
+📁 Project Structure
+index.html: Main entry point and structure.
 
-Open the index.html file in any modern web browser.
+src/css/: Stylesheets and theme variables.
 
-Complete the quiz and check your final performance score!
+src/js/: Core quiz logic.
+
+assets/: Images, icons, and static resources.
+
+Developed with 💻 by Pedro Duarte
